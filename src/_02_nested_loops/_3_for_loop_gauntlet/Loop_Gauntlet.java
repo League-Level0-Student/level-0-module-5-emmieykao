@@ -42,7 +42,7 @@ public static void main(String[] args) {
 			System.out.println(i);
 		}
 	}*/
-	
+	q
 	/* in __year I was __years old:
 	int yr=2007;
 	for (int i = 0; i < 14; i++) {
