@@ -42,7 +42,7 @@ public static void main(String[] args) {
 			System.out.println(i);
 		}
 	}*/
-	q
+	
 	/* in __year I was __years old:
 	int yr=2007;
 	for (int i = 0; i < 14; i++) {
@@ -58,6 +58,7 @@ public static void main(String[] args) {
 	}	
 	}*/
 	
+	/*nested loop#2
 	for (int i = 1; i < 9; i+=3) {
 		
 		for (int j = i; j < i+3; j++) {
@@ -65,5 +66,29 @@ public static void main(String[] args) {
 		}
 		System.out.println();
 	}
-}
-}
+}*/
+	
+	/*nested loop#3
+	for(int i = 1; i<100; i+=10) {
+		for(int j = i; j < i + 10; j++) {
+			System.out.print(j + " ");
+		}
+		System.out.println();
+	}*/
+	
+	
+	/*nested loop#4
+	for (int i = 6; i >= 1; i--) {
+	
+		for (int j = i; j <= 6; j++) {
+			System.out.print("* ");
+		}
+		System.out.println();
+	}*/
+	
+	//bonus
+	for (int i = 0; i > -101; i--) {
+		System.out.println(i+100);
+	}
+	
+}}
